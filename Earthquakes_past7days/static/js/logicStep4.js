@@ -81,7 +81,7 @@ function getColor(magnitude) {
     return "#ea2c2c";
   }
   if (magnitude > 4) {
-    return "ea822c";
+    return "#ea822c";
   }
   if (magnitude > 3) {
     return "#ee9c00";
@@ -90,7 +90,7 @@ function getColor(magnitude) {
     return "#eecc00";
   }
   if (magnitude > 1) {
-    return "d4ee00";
+    return "#d4ee00";
   }
   return "#98ee00";
 }
